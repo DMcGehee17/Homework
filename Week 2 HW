@@ -1,0 +1,14 @@
+let pizzaPlace = "Dylan's Pizza"
+let numberOfToppings = 15
+console.log("Dylan's Pizza")
+console.log(15)
+`${pizzaPlace} "serves " ${numberOfToppings} " toppings on their pies."`
+if (numberOfToppings > 10) {
+  console.log("A whole lot of pizza.")
+}
+
+// Bonus Loop Attempt!
+
+for (let i = 1; i <= numberOfToppings; i++);
+
+
