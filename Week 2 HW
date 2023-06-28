@@ -1,12 +1,12 @@
 let pizzaPlace = "Dylan's Pizza"
 let numberOfToppings = 15
-console.log(pizzaPlace)
-console.log(numberOfToppings)
-`${pizzaPlace} "serves " ${numberOfToppings} " toppings on their pies."`
+console.log(typeof pizzaPlace)
+console.log(typeof numberOfToppings)
+console.log(`${pizzaPlace} serves ${numberOfToppings} toppings on their pies.`)
 if (numberOfToppings > 10) {
-  console.log("A whole lot of pizza.")
-  else (numberOfToppings <=  10)
-    console.log("Quality, not quantity.")
+  console.log("A whole lot of pizza.");
+}  else { numberOfToppings <=  10;
+    console.log("Quality, not quantity.");
 
 }
 
