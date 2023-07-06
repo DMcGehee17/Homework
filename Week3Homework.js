@@ -1,4 +1,4 @@
-const pizzaToppings = ["pepperoni,", "sausage,", "mushroom,", "bacon."]
+const pizzaToppings = ["pepperoni,", "sausage,", "jalapenos,", "pineapple."]
 
 
 function greetCustomer(){
