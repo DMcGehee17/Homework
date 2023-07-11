@@ -1,11 +1,11 @@
-header {
+.header {
   font-size: 40px;
   padding-bottom: 40px;
-  border-top: 20px;;
+  border-top: 20px;
 }
 * {
   font-family: sans-serif;
-  margin: 0 10 10 10;
+  margin: 0 10px 10px 10px;
 }
 
 p {
@@ -21,4 +21,15 @@ main div{
 
   padding-left: 20px;
 
+}
+body {
+  padding: 0;
+}
+
+:root {
+  color-scheme: normal;
+}
+
+#portfolio {
+  font-family: sans-serif;
 }
