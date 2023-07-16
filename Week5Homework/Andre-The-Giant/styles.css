@@ -1,0 +1,46 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+  float: center;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: center;
+  padding-left: 0px;
+}
+
+#bio > li {
+  padding: 2px;
+  padding-left: 0px;
+}
+
+#pro {
+  width: auto;
+}
+
+@media (max-width: 700px){
+  .flex{
+    flex-direction: column;
+  }
+}
