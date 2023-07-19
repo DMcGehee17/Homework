@@ -302,15 +302,12 @@ data [
 ]
 
 // Solution One
-const solution = data.filter(callback (userId => {
-  return userId.userId == 3;
-}));
+const solution = data.filter(task => task.userId === 3);
+
 console.log(solution);
 // Solution Two
-  let solutionTwo = [];
+const solutionTwo = data.filter(task => task.userId === 3 && !task.completed);
 
-  let total = solutionTwo.filtered.filter(function (currentElement) {
-    return currentElement ;
-  });
+const total = solutionTwo.length;
 
-  console.log(total);
+console.log(total);

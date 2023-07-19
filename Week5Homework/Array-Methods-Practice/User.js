@@ -231,16 +231,20 @@ data [
   }
 ]
 // First solution
-const problemOne = data.forEach(hw => console.log(hw.id.city));
+const problemOne = data.forEach(user => console.log(user.address.city));
 console.log(problemOne);
+
 // Second solution
 const problemTwo = [];
-data.forEach(hwTwo => {
 
-let web = hwTwo.data.email;
-let address = hwTwo.data.id.website;
-hwTwo.push[web, address];
-}
-)
+data.forEach(user => {
+
+  let email = user.email;
+
+  let website = user.website;
+
+  problemTwo.push([email, website]);
+
+});
 
 
