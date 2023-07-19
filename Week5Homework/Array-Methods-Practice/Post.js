@@ -304,16 +304,8 @@ data [
 
 
 // Solution One
-const solution = data.filter(callback (userId => {
-  return userId.userId === 5;
-}));
-console.log(solution);
+const user5 = data.filter(post => post.userId === 5); 
+console.log(user5);
 // Solution Two
-const solutionTwo = data.map(data =>
-  {
-    let first = data.title;
-    let second = data.body;
-
-    return [first, second];
-  });
-  console.log(solutionTwo);
+const titleBody = data.map(post => [post.title, post.body]); 
+console.log(titleBody);
