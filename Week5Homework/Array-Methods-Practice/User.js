@@ -231,20 +231,13 @@ data [
   }
 ]
 // First solution
-const problemOne = data.forEach(user => console.log(user.address.city));
-console.log(problemOne);
+
+const phoneNumbers = data.map((user) => user.phone); 
+console.log(phoneNumbers);
+
 
 // Second solution
-const problemTwo = [];
-
-data.forEach(user => {
-
-  let email = user.email;
-
-  let website = user.website;
-
-  problemTwo.push([email, website]);
-
-});
+const websiteAndEmailPairs = data.map((user) => ({ email: user.email, website: user.website, })); 
+console.log(websiteAndEmailPairs); 
 
 
