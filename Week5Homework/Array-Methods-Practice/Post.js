@@ -305,7 +305,7 @@ data [
 
 // Solution One
 const solution = data.filter(callback (userId => {
-  return userId.userId == 5;
+  return userId.userId === 5;
 }));
 console.log(solution);
 // Solution Two
